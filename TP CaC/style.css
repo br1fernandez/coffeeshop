@@ -1,0 +1,305 @@
+
+
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+   
+}
+
+
+
+.header{
+    display:flex
+}
+
+.menu{
+    display: flex;
+    background-color: #e4d3c5;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__header{
+    display: flex;
+    padding-left: 1rem;  
+    align-content: center; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu__header img{
+    max-width: 50px;
+    max-height: 50px;
+    padding-right: 1rem;
+    
+}
+.menu__title{
+    color: rgb(95, 74, 43);
+    font-weight: bold;
+    font-size:50px;
+}
+
+.menu__list, .menu__nav {
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+    gap: 1rem;  
+    padding-right: 1rem;  
+    font-size:1.4rem;  
+}
+.menu__list__item a{
+    color: rgb(80, 56, 34);
+
+}
+
+.menu__list__item :hover{
+    color: white;
+    font-weight: bold;
+
+}
+
+.menu__list__item__contacto{
+    display: none;
+}
+
+
+.nosotros{
+    background-image: url(/assets/granos-home-2000.jpg);
+    background-attachment: fixed;
+}
+.nosotros__div{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: space-around;
+   padding: 3rem 2rem 3rem 2rem;
+
+}
+.nosotros__profile{
+    height: 25rem;
+    padding: 1rem;
+    border-radius: 35px;
+}
+.nosotros__bio{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: rgb(242, 221, 193);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+.nosotros__subsection{
+    padding: 0 1rem 1rem 1rem;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: rgb(242, 221, 193);
+    text-shadow: 1px 1px 2px black;
+}
+.nosotros__network {
+    display: flex;
+    gap: 3rem;
+    padding-left: 1rem; 
+    font-size: 1.2rem; 
+    color: rgb(242, 221, 193); 
+    text-shadow: 1px 1px 2px black; 
+}
+.nosotros__network a{
+    color: rgb(242, 221, 193);    
+}
+.nosotros__network :hover{
+    font-weight: bold;
+}
+
+
+
+.historia{
+    padding: 3rem;
+    background: #e4d3c5; 
+}
+.historia__container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+.historia__container img{
+    width: auto;
+    border-radius: 20px;
+}
+.historia__title{
+    font-size: 2.3rem;
+    color: #464032;
+    margin: 0;
+}
+.historia__paragraph{
+    font-size: 1.3rem;
+    color: #464032;
+}
+
+.variedades{
+    padding: 4rem;
+    background-image: url(/assets/granos-home-2000.jpg);
+    background-attachment: fixed;
+}
+.variedades__title{
+    font-size: 2.5rem;
+    color: rgb(242, 221, 193);
+    margin: 0; 
+    text-shadow: 1px 1px 2px black;
+}
+.variedades__paragraph{
+    font-size: 1.5rem;
+    color: rgb(244, 230, 211);
+    font-weight: 200;
+    text-shadow: 1px 1px 2px black;
+    
+}
+.variedades__container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 3rem;      
+}
+
+.formcontacto__contacto{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.formcontacto{
+    background-image: url(/assets/granos-home-2000.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.formcontacto img{
+        width: 30rem;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px 5px rgba(242, 234, 234, 0.26)
+}
+
+.formcontacto__form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.formcontacto__title{
+    font-size: 2.5rem;
+    color: rgb(242, 221, 193);
+    margin: 0; 
+    text-shadow: 1px 1px 2px black;
+}
+
+.formcontacto__subtext{    
+font-size: 1.4rem;
+color: rgb(244, 230, 211);
+font-weight: 200;
+text-shadow: 1px 1px 2px black;
+}
+
+.formcontacto__input, .formcontacto__textarea{
+    margin-bottom: 0.8rem;
+    border-radius: 5px;
+    color:#000000;
+}
+
+.formcontacto__boton{
+    background-color: rgb(224, 187, 152);
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+
+
+.metodos{
+    background: #e4d3c5;
+    padding: 2rem;
+}
+.metodos__title{
+    font-size: 2.3rem;
+    color: #464032;
+    justify-content: center; 
+    display: flex;
+}
+.metodos__div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.metodos__box{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.metodos__item__iframe{
+          
+    background-color: white;
+    padding: 1.2rem; 
+    border-radius: 15px;
+}
+.metodos__item__title {
+    color: #464032;
+    font-size:x-large;
+}
+.metodos__item__subtitle{
+    color: #464032;
+    font-size:large;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer{
+    background-color: black;
+    font-size: x-large;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+}
+
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+
+
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+
+
+}
